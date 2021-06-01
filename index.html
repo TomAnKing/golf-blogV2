@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Golf Blog</title>
+    <meta
+      name="Welcome to The Golf Blog. Explore our blog and find a range of articles about the sport we love, golf!"
+      content="This is the homepage for The Golf Blog"
+    />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><div id="logo">The Golf Blog</div></a>
+      <input type="checkbox" id="navToggle" class="navToggle" onclick="" />
+      <nav>
+        <ul>
+          <li><a href="index.html" class="current">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="navToggle" class="navToggle-label">
+        <span></span>
+      </label>
+    </header>
+    <main>
+      <div id="putterImg"></div>
+      <h1>Latest Posts</h1>
+      <div class="loader"></div>
+      <div class="blogContainer">
+        <div class="arrow" id="leftArrow" onclick="prev()"><</div>
+        <div class="blogCards"></div>
+        <div class="arrow" id="rightArrow" onclick="next()">></div>
+      </div>
+    </main>
+    <script src="JS/index.js"></script>
+  </body>
+</html>

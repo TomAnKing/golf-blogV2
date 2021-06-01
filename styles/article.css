@@ -1,0 +1,185 @@
+.blogPost {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-top: 3%;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+#backButton span {
+  font-style: italic;
+  color: #3d3d3d;
+  font-size: 14px;
+}
+
+#backButton a {
+  text-decoration: none;
+  color: #3d3d3d;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 18px;
+  color: #3d3d3d;
+}
+
+p {
+  font-size: 12px;
+  color: #3d3d3d;
+  margin-bottom: 1%;
+}
+
+.author {
+  font-size: 13px;
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 13px;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.modalImg {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modalImg:hover {
+  cursor: pointer;
+}
+
+.modalImg img {
+  margin-top: 95px;
+}
+
+.modalImg img:hover {
+  cursor: initial;
+  opacity: inherit;
+}
+
+.closeModal {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.closeModal:hover {
+  cursor: pointer;
+  color: #3d3d3d;
+}
+
+.description {
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+}
+
+.description:hover {
+  cursor: initial;
+}
+
+img:hover {
+  opacity: 0.9;
+}
+
+.loader {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 50%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .blogPost {
+    max-width: 700px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  #backButton a {
+    font-size: 20px;
+  }
+
+  #backButton span {
+    font-size: 20px;
+  }
+
+  .author {
+    font-size: 22px;
+  }
+
+  .date {
+    font-size: 22px;
+  }
+
+  .modalImg img {
+    width: 60%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .closeModal {
+    top: 0;
+    right: 17%;
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 26px;
+    margin-left: 20%;
+    text-align: left;
+    max-width: 60%;
+  }
+
+  .loader {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #3498db;
+    width: 60px;
+    height: 60px;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+}

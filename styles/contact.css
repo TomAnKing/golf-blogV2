@@ -1,0 +1,99 @@
+body {
+  background: url(../images/backround1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+}
+
+#contactSquare {
+  background-color: white;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 15%;
+  border-radius: 1%;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 5%;
+  color: #3d3d3d;
+  font-size: 20px;
+}
+
+input {
+  width: 80%;
+  margin-left: 9%;
+  height: 30px;
+  color: #3d3d3d;
+}
+
+textarea {
+  width: 80%;
+  margin-left: 9%;
+  height: 90px;
+  color: #3d3d3d;
+}
+
+#success {
+  font-size: 16px;
+  text-align: center;
+  color: green;
+  display: none;
+}
+
+p {
+  margin-left: 9%;
+  color: #3d3d3d;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.formError {
+  color: red;
+  margin-left: 9%;
+  font-size: 14px;
+  display: none;
+}
+
+button {
+  margin-top: 5%;
+  margin-bottom: 15%;
+  font-size: 14px;
+  width: 35%;
+  margin-left: 32.5%;
+  height: 30px;
+  border: none;
+  color: #fff;
+  background-color: #3d3d3d;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+@media screen and (min-width: 768px) {
+  #contactSquare {
+    max-width: 700px;
+    margin-top: 5%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 22px;
+    margin-bottom: 1%;
+  }
+
+  button {
+    width: 20%;
+    margin-left: 69%;
+    font-size: 16px;
+    height: 40px;
+  }
+}
