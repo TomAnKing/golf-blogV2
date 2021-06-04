@@ -13,6 +13,7 @@ body {
   margin: auto;
   margin-top: 15%;
   border-radius: 1%;
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 20px 35px;
 }
 
 h1 {
@@ -27,6 +28,7 @@ input {
   margin-left: 9%;
   height: 30px;
   color: #3d3d3d;
+  margin-bottom: 2%;
 }
 
 textarea {
@@ -43,12 +45,11 @@ textarea {
   display: none;
 }
 
-p {
+label {
   margin-left: 9%;
   color: #3d3d3d;
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 1%;
 }
 
 .formError {
@@ -68,6 +69,7 @@ button {
   border: none;
   color: #fff;
   background-color: #3d3d3d;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 button:hover {
@@ -85,9 +87,8 @@ button:hover {
     font-size: 30px;
   }
 
-  p {
+  label {
     font-size: 22px;
-    margin-bottom: 1%;
   }
 
   button {

@@ -46,6 +46,12 @@ img {
 .latestBlog {
   background-color: #fff;
   height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.5s;
+}
+
+.latestBlog:hover {
+  width: 102%;
 }
 
 .arrow {
@@ -56,6 +62,7 @@ img {
 
 #leftArrow {
   margin-left: 15px;
+  transition: 0.5s;
 }
 
 #rightArrow {
